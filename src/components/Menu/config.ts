@@ -32,6 +32,11 @@ const config: MenuEntry[] = [
     href: 'http://anoswap.finance/pools'
   },
   {
+    label: 'Leveraged farming',
+    icon: 'PoolIcon',
+    href: 'http://anoswap.finance/comingsoon',
+  },
+  {
     label: 'Your project',
     icon: 'PoolIcon',
     href: 'http://anoswap.finance/jungles',

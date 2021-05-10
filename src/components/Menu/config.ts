@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'http://ano.classic999.com/'
+    href: 'http://anoswap.finance/'
   },
   {
     label: 'Trade',
@@ -24,55 +24,95 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'http://ano.classic999.com/farms'
+    href: 'http://anoswap.finance/farms'
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'http://ano.classic999.com/nests'
+    href: 'http://anoswap.finance/pools'
   },
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: 'https://www.goosedefi.com/lottery'
-  // },
   {
-    label: 'Info',
+    label: 'Your project',
+    icon: 'PoolIcon',
+    href: 'http://anoswap.finance/jungles',
+  },
+  {
+    label: 'Lottery',
+    icon: 'TicketIcon',
+    href: 'http://anoswap.finance/lottery'
+  },
+  {
+    label: 'Referral',
+    icon: 'GroupsIcon',
+    href: 'http://anoswap.finance/referral',
+  },
+  {
+    label: 'Price Charts',
     icon: 'InfoIcon',
     items: [
       {
-        label: 'Token Info',
-        href: 'https://bscscan.com/address/0x82cC01e1Fcb4A37ec8Ac6488eF7F39BC7F7d04B4',
+        label: 'DexGuru',
+        href: 'https://dex.guru/token/0x1f546ad641b56b86fd9dceac473d1c7a357276b7-bsc',
+      },
+      {
+        label: 'PooCoin',
+        href: 'https://poocoin.app/tokens/0x1f546ad641b56b86fd9dceac473d1c7a357276b7',
+      },
+      {
+        label: 'BoggedFinance',
+        href: 'https://charts.bogged.finance/?token=0x1f546aD641B56b86fD9dCEAc473d1C7a357276B7',
+      },
+      {
+        label: 'DexTools',
+        href: 'https://www.dextools.io/app/pancakeswap/pair-explorer/0xecc11a78490866e0073ebc4a4dcb6f75673c8685',
+      },
+    ],
+  },
+  {
+    label: 'Listings',
+    icon: 'NftIcon',
+    items: [
+      {
+        label: 'BscScan',
+        href: 'https://bscscan.com/token/0x1f546ad641b56b86fd9dceac473d1c7a357276b7',
+      },
+      {
+        label: 'DappRadar',
+        href: 'https://dappradar.com/binance-smart-chain/defi/pantherswap',
       },
       {
         label: 'CoinGecko',
-        href: 'http://ano.classic999.com/ComingSoon',
+        href: 'https://www.coingecko.com/en/coins/pantherswap',
       },
       {
-        label: 'CoinMarketCap',
-        href: 'http://ano.classic999.com/ComingSoon',
+        label: 'LiveCoinWatch',
+        href: 'https://www.livecoinwatch.com/price/PantherSwap-PANTHER',
       },
-      // {
-      //   label: 'AstroTools',
-      //   href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
-      // },
-    ]
+      {
+        label: 'Vfat',
+        href: 'https://vfat.tools/bsc/panther',
+      },
+    ],
   },
   {
     label: 'More',
     icon: 'MoreIcon',
     items: [
       {
-        label: "Github",
-        href: "https://github.com/goosedefi/",
+        label: 'Github',
+        href: 'https://github.com/AnoSwap/',
       },
       {
-        label: "Docs",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
+        label: 'Docs',
+        href: 'https://app.gitbook.com/@anoswap/s/anonymousswap-finance/whitepaper/',
       },
       {
-        label: "Blog",
-        href: "https://medium.com/@anoswap",
+        label: 'Blog',
+        href: 'https://anoswap.medium.com/',
+      },
+      {
+        label: 'Voting',
+        href: 'http://anoswap.finance/comingsoon',
       },
     ],
   },

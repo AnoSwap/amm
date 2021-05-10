@@ -49,6 +49,19 @@ const BodyWrapper = styled.div`
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
+
+  ${({ theme }) => theme.mediaQueries.xs} {
+    background-size: auto;
+  }
+
+  ${({ theme }) => theme.mediaQueries.lg} {
+    background-image: url('/images/arch-${({ theme }) => (theme.isDark ? 'dark' : 'light')}.svg'),
+      url('/images/ano/10.png'), url('/images/ano/11.png');
+    background-repeat: no-repeat;
+    background-position: center 420px, 10% 230px, 90% 230px;
+    background-size: contain, 266px, 266px;
+    min-height: 90vh;
+  }
 `
 
 const Marginer = styled.div`
@@ -69,21 +82,21 @@ export default function App() {
   //
   // const stringTranslationsApi = new StringTranslations(credentials)
   //
-  // const getStoredLang = (storedLangCode: string) => {
-  //   return allLanguages.filter(language => {
-  //     return language.code === storedLangCode
-  //   })[0]
-  // }
+  const getStoredLang = (storedLangCode: string) => {
+    return allLanguages.filter(language => {
+      return language.code === storedLangCode
+    })[0]
+  }
 
-  // useEffect(() => {
-  //   const storedLangCode = localStorage.getItem('pancakeSwapLanguage')
-  //   if (storedLangCode) {
-  //     const storedLang = getStoredLang(storedLangCode)
-  //     setSelectedLanguage(storedLang)
-  //   } else {
-  //     setSelectedLanguage(EN)
-  //   }
-  // }, [])
+  useEffect(() => {
+    const storedLangCode = localStorage.getItem('pancakeSwapLanguage')
+    if (storedLangCode) {
+      const storedLang = getStoredLang(storedLangCode)
+      setSelectedLanguage(storedLang)
+    } else {
+      setSelectedLanguage(EN)
+    }
+  }, [])
   //
   // const fetchTranslationsForSelectedLanguage = async () => {
   //   stringTranslationsApi

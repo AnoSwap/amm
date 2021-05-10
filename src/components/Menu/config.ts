@@ -52,19 +52,19 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'DexGuru',
-        href: 'https://dex.guru/token/0x1f546ad641b56b86fd9dceac473d1c7a357276b7-bsc',
+        href: 'https://dex.guru/',
       },
       {
         label: 'PooCoin',
-        href: 'https://poocoin.app/tokens/0x1f546ad641b56b86fd9dceac473d1c7a357276b7',
+        href: 'https://poocoin.app/',
       },
       {
         label: 'BoggedFinance',
-        href: 'https://charts.bogged.finance/?token=0x1f546aD641B56b86fD9dCEAc473d1C7a357276B7',
+        href: 'https://charts.bogged.finance/',
       },
       {
         label: 'DexTools',
-        href: 'https://www.dextools.io/app/pancakeswap/pair-explorer/0xecc11a78490866e0073ebc4a4dcb6f75673c8685',
+        href: 'https://www.dextools.io/',
       },
     ],
   },
@@ -74,23 +74,23 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'BscScan',
-        href: 'https://bscscan.com/token/0x1f546ad641b56b86fd9dceac473d1c7a357276b7',
+        href: 'https://bscscan.com/',
       },
       {
         label: 'DappRadar',
-        href: 'https://dappradar.com/binance-smart-chain/defi/pantherswap',
+        href: 'https://dappradar.com/',
       },
       {
         label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/pantherswap',
+        href: 'https://www.coingecko.com/en/',
       },
       {
         label: 'LiveCoinWatch',
-        href: 'https://www.livecoinwatch.com/price/PantherSwap-PANTHER',
+        href: 'https://www.livecoinwatch.com/',
       },
       {
         label: 'Vfat',
-        href: 'https://vfat.tools/bsc/panther',
+        href: 'https://vfat.tools/',
       },
     ],
   },
